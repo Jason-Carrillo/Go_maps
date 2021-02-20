@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+// ANY OTHER TYPES that have a function with the same NAME AND OUTPUT of that function
+// that are PASSED into an INTERFACEwill also be type BOT. In this case all
+// Types that have a getGreeting func that return a string.
+// Those types here are englishBot, and spanishBot
 type bot interface {
 	getGreeting() string
 }
