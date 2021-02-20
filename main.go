@@ -10,15 +10,14 @@ func main() {
 	// var colors map[string]string
 
 	//#2 Create a map
-	colors := make(map[string]string)
+	// colors := make(map[string]string)
 
-	//#3 Create a map
-	// colors := map[string]string{
-	// 	"red":   "ff0000",
-	// 	"green": "75b271",
-	// }
-
-	colors["white"] = "ffffff"
+	// #3 Create a map
+	colors := map[string]string{
+		"red":   "ff0000",
+		"green": "75b271",
+		"white": "ffffff",
+	}
 
 	delete(colors, "white")
 
