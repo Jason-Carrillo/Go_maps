@@ -19,7 +19,11 @@ func main() {
 		"white": "ffffff",
 	}
 
-	delete(colors, "white")
+	printMap(colors)
+}
 
-	fmt.Println(colors)
+func printMap(c map[string]string) {
+	for color, hex := range c {
+		fmt.Println("Hex code for ", color, "is", hex)
+	}
 }
